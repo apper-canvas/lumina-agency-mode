@@ -1,0 +1,310 @@
+[
+  {
+    "Id": 1,
+    "name": "Isabella Rodriguez",
+    "age": 24,
+    "height": "5'9\"",
+    "location": "New York, NY",
+    "category": "Fashion",
+    "photos": [
+      {
+        "Id": 1,
+        "url": "https://images.unsplash.com/photo-1494790108755-2616c96ce018?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "category": "headshot",
+        "caption": "Professional headshot",
+        "order": 1,
+        "uploadedAt": "2024-01-15T10:00:00Z"
+      },
+      {
+        "Id": 2,
+        "url": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "category": "fashion",
+        "caption": "Fashion editorial",
+        "order": 2,
+        "uploadedAt": "2024-01-15T10:05:00Z"
+      }
+    ],
+    "measurements": {
+      "bust": "34\"",
+      "waist": "24\"",
+      "hips": "36\"",
+      "shoe": "8.5",
+      "dress": "6"
+    },
+    "contact": {
+      "email": "isabella.r@email.com",
+      "phone": "+1 (555) 123-4567",
+      "emergency": "Maria Rodriguez +1 (555) 987-6543"
+    },
+    "experience": [
+      {
+        "project": "Vogue Editorial",
+        "client": "Vogue Magazine",
+        "year": "2023",
+        "description": "Featured in winter fashion editorial"
+      }
+    ],
+    "availability": [],
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Marcus Johnson",
+    "age": 28,
+    "height": "6'2\"",
+    "location": "Los Angeles, CA",
+    "category": "Commercial",
+    "photos": [
+      {
+        "Id": 3,
+        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "category": "headshot",
+        "caption": "Commercial headshot",
+        "order": 1,
+        "uploadedAt": "2024-01-10T14:00:00Z"
+      },
+      {
+        "Id": 4,
+        "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "category": "commercial",
+        "caption": "Brand campaign",
+        "order": 2,
+        "uploadedAt": "2024-01-10T14:15:00Z"
+      }
+    ],
+    "measurements": {
+      "chest": "42\"",
+      "waist": "32\"",
+      "inseam": "34\"",
+      "shoe": "11",
+      "suit": "42L"
+    },
+    "contact": {
+      "email": "marcus.j@email.com",
+      "phone": "+1 (555) 234-5678",
+      "emergency": "Linda Johnson +1 (555) 876-5432"
+    },
+    "experience": [
+      {
+        "project": "Nike Campaign",
+        "client": "Nike Inc.",
+        "year": "2023",
+        "description": "Brand ambassador for athletic wear line"
+      }
+    ],
+    "availability": [],
+    "createdAt": "2024-01-02T00:00:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Sophia Chen",
+    "age": 22,
+    "height": "5'7\"",
+    "location": "Miami, FL",
+    "category": "Editorial",
+    "photos": [
+      {
+        "Id": 5,
+        "url": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "category": "headshot",
+        "caption": "Natural beauty shot",
+        "order": 1,
+        "uploadedAt": "2024-01-08T11:30:00Z"
+      }
+    ],
+    "measurements": {
+      "bust": "32\"",
+      "waist": "25\"",
+      "hips": "35\"",
+      "shoe": "7.5",
+      "dress": "4"
+    },
+    "contact": {
+      "email": "sophia.c@email.com",
+      "phone": "+1 (555) 345-6789",
+      "emergency": "Wei Chen +1 (555) 765-4321"
+    },
+    "experience": [],
+    "availability": [],
+    "createdAt": "2024-01-03T00:00:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "David Kim",
+    "age": 26,
+    "height": "6'0\"",
+    "location": "Chicago, IL",
+    "category": "Fitness",
+    "photos": [
+      {
+        "Id": 6,
+        "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "category": "headshot",
+        "caption": "Fitness model headshot",
+        "order": 1,
+        "uploadedAt": "2024-01-12T16:45:00Z"
+      }
+    ],
+    "measurements": {
+      "chest": "40\"",
+      "waist": "30\"",
+      "inseam": "32\"",
+      "shoe": "10.5",
+      "suit": "40R"
+    },
+    "contact": {
+      "email": "david.k@email.com",
+      "phone": "+1 (555) 456-7890",
+      "emergency": "Sarah Kim +1 (555) 654-3210"
+    },
+    "experience": [
+      {
+        "project": "Under Armour Campaign",
+        "client": "Under Armour",
+        "year": "2023",
+        "description": "Fitness apparel campaign model"
+      }
+    ],
+    "availability": [],
+    "createdAt": "2024-01-04T00:00:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Emma Thompson",
+    "age": 23,
+    "height": "5'10\"",
+    "location": "Seattle, WA",
+    "category": "Fashion",
+    "photos": [
+      {
+        "Id": 7,
+        "url": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "category": "headshot",
+        "caption": "High fashion portrait",
+        "order": 1,
+        "uploadedAt": "2024-01-14T09:20:00Z"
+      }
+    ],
+    "measurements": {
+      "bust": "35\"",
+      "waist": "26\"",
+      "hips": "37\"",
+      "shoe": "9",
+      "dress": "8"
+    },
+    "contact": {
+      "email": "emma.t@email.com",
+      "phone": "+1 (555) 567-8901",
+      "emergency": "James Thompson +1 (555) 543-2109"
+    },
+    "experience": [],
+    "availability": [],
+    "createdAt": "2024-01-05T00:00:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "Riley Martinez",
+    "age": 21,
+    "height": "5'8\"",
+    "location": "Austin, TX",
+    "category": "Commercial",
+    "photos": [
+      {
+        "Id": 8,
+        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "category": "headshot",
+        "caption": "Fresh commercial look",
+        "order": 1,
+        "uploadedAt": "2024-01-11T13:15:00Z"
+      }
+    ],
+    "measurements": {
+      "bust": "33\"",
+      "waist": "24\"",
+      "hips": "35\"",
+      "shoe": "8",
+      "dress": "6"
+    },
+    "contact": {
+      "email": "riley.m@email.com",
+      "phone": "+1 (555) 678-9012",
+      "emergency": "Carmen Martinez +1 (555) 432-1098"
+    },
+    "experience": [],
+    "availability": [],
+    "createdAt": "2024-01-06T00:00:00Z"
+  },
+  {
+    "Id": 7,
+    "name": "Alexander Petrov",
+    "age": 29,
+    "height": "6'1\"",
+    "location": "Boston, MA",
+    "category": "Editorial",
+    "photos": [
+      {
+        "Id": 9,
+        "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "category": "headshot",
+        "caption": "Editorial portrait",
+        "order": 1,
+        "uploadedAt": "2024-01-13T15:30:00Z"
+      }
+    ],
+    "measurements": {
+      "chest": "41\"",
+      "waist": "31\"",
+      "inseam": "33\"",
+      "shoe": "10",
+      "suit": "41R"
+    },
+    "contact": {
+      "email": "alex.p@email.com",
+      "phone": "+1 (555) 789-0123",
+      "emergency": "Natasha Petrov +1 (555) 321-0987"
+    },
+    "experience": [
+      {
+        "project": "GQ Editorial",
+        "client": "GQ Magazine",
+        "year": "2023",
+        "description": "Men's fashion editorial spread"
+      }
+    ],
+    "availability": [],
+    "createdAt": "2024-01-07T00:00:00Z"
+  },
+  {
+    "Id": 8,
+    "name": "Zoe Anderson",
+    "age": 25,
+    "height": "5'6\"",
+    "location": "Portland, OR",
+    "category": "Plus Size",
+    "photos": [
+      {
+        "Id": 10,
+        "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "category": "headshot",
+        "caption": "Confident beauty shot",
+        "order": 1,
+        "uploadedAt": "2024-01-16T12:00:00Z"
+      }
+    ],
+    "measurements": {
+      "bust": "42\"",
+      "waist": "34\"",
+      "hips": "44\"",
+      "shoe": "8.5",
+      "dress": "14"
+    },
+    "contact": {
+      "email": "zoe.a@email.com",
+      "phone": "+1 (555) 890-1234",
+      "emergency": "Michael Anderson +1 (555) 210-9876"
+    },
+    "experience": [],
+    "availability": [],
+    "createdAt": "2024-01-08T00:00:00Z"
+  }
+]
