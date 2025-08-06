@@ -154,13 +154,13 @@ const DetailsTab = ({ model, onUpdate }) => {
               label="Waist"
               value={formData.measurements.waist}
               onChange={(e) => updateNestedData("measurements", "waist", e.target.value)}
-              placeholder="e.g., 24\""
+              placeholder="e.g., 24&quot;"
             />
             <FormField
               label="Hips"
               value={formData.measurements.hips}
               onChange={(e) => updateNestedData("measurements", "hips", e.target.value)}
-              placeholder="e.g., 36\""
+              placeholder="e.g., 36&quot;"
             />
             <FormField
               label="Shoe Size"
