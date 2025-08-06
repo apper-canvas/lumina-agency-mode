@@ -108,7 +108,7 @@ const DetailsTab = ({ model, onUpdate }) => {
               label="Height"
               value={formData.height}
               onChange={(e) => updateFormData("height", e.target.value)}
-              placeholder="e.g., 5'8\""
+              placeholder="e.g., 5'8&quot;"
               required
             />
             <FormField
@@ -144,11 +144,11 @@ const DetailsTab = ({ model, onUpdate }) => {
         <div className="bg-gray-50 rounded-lg p-6">
           <h3 className="text-lg font-medium text-primary mb-4">Measurements</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <FormField
+<FormField
               label="Bust"
               value={formData.measurements.bust}
               onChange={(e) => updateNestedData("measurements", "bust", e.target.value)}
-              placeholder="e.g., 34\""
+              placeholder="e.g., 34&quot;"
             />
             <FormField
               label="Waist"
