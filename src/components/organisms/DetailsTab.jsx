@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ApperIcon from "@/components/ApperIcon";
-import Button from "@/components/atoms/Button";
 import FormField from "@/components/molecules/FormField";
 import Badge from "@/components/atoms/Badge";
+import Button from "@/components/atoms/Button";
 
 const DetailsTab = ({ model, onUpdate }) => {
   const [isEditing, setIsEditing] = useState(false)
